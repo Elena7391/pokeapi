@@ -1,19 +1,20 @@
 <script setup>
-import Pokemon from './components/pokemon.vue';
+import Pokemon from "./components/Pokemon.vue";
 </script>
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-
     <div class="wrapper">
       <Pokemon />
     </div>
   </header>
-
 </template>
 
-<style scoped>
+<style>
+p {
+  color: aquamarine;
+}
+
 header {
   line-height: 1.5;
 }
